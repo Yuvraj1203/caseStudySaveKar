@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = (props) =>{
+const SectionPage = (props) =>{
     return(
         <div className="flex text-orange-500 text-l px-10 my-10">
             <img src={props.image} />
@@ -12,4 +12,4 @@ const Home = (props) =>{
     )
 }
 
-export default Home;
+export default SectionPage;

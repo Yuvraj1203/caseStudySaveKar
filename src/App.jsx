@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Head from "./components/Head";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
+import SectionPage from "./components/SectionPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Casest from "./components/Casest";
 
@@ -15,7 +15,7 @@ function App() {
         <Route
           path="/"
           element={
-            <Home
+            <SectionPage
               page="Home Page"
               image="http://localhost/savekar/wp-content/uploads/2024/05/FinancialPreparation.svg"
             />
@@ -24,7 +24,7 @@ function App() {
         <Route
           path="about"
           element={
-            <Home
+            <SectionPage
               page="About Us Page"
               image="http://localhost/savekar/wp-content/uploads/2024/05/whyteams2.svg"
             />
@@ -33,7 +33,7 @@ function App() {
         <Route
           path="service"
           element={
-            <Home
+            <SectionPage
               page="Service Page"
               image="http://localhost/savekar/wp-content/uploads/2024/05/Receivable.svg"
             />
@@ -42,7 +42,7 @@ function App() {
         <Route
           path="contact"
           element={
-            <Home
+            <SectionPage
               page="Contact Us Page"
               image="http://localhost/savekar/wp-content/uploads/2024/05/BookkeepingServices.svg"
             />
